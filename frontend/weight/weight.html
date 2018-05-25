@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Weight Tracker - Traekk.ME</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+		<script src="/node_modules/@webcomponents/html-imports/html-imports.min.js"></script>
+		<script src="/state/state.js"></script>
+	
+		<link rel="import" href="/structure/header/dashboard-header.html" />
+		<link rel="import" href="quick-weight-stats/quick-weight-stats.html" />
+		<link rel="import" href="enter-weight/enter-weight.html" />
+	</head>
+	<body>
+		<dashboard-header active-tab="weight"></dashboard-header>
+
+		<quick-weight-stats listen-to="enter-weight"></quick-weight-stats>
+		<enter-weight id="enter-weight"></enter-weight>
+	</body>
+</html>

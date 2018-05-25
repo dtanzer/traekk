@@ -1,0 +1,20 @@
+{
+  "name": "traekkme-frontend",
+  "version": "0.0.1",
+  "description": "The web frontend for the traekk.me fitness tracker",
+  "main": "index.js",
+  "scripts": {
+    "server": "http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Tanzer (business@davidtanzer.net)",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "@webcomponents/html-imports": "^1.1.1",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "redux": "^4.0.0"
+  }
+}
